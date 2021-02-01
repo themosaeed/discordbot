@@ -14,7 +14,7 @@ const testChannel = '804429983489327109'
 const belaHadafChannel = '754732751558541365'
 
 client.on('message', (msg) => {
-  if (msg.channel.id === testChannel) {
+  if (msg.channel.id === belaHadafChannel) {
     const args = msg.content.slice().trim().split(' ')
     const command = args.shift().toLowerCase()
     const arg = args[0].toLowerCase()
