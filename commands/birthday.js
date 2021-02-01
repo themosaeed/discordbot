@@ -68,7 +68,7 @@ function birthday(arg, msg) {
   }
   if (arg === 'romy') {
     msg.reply(
-      `Romy is a special person who came to life on the 1st of Feb giving life a new way of saying oskooot`
+      `Romy is a special person who came to life on the 1st of Feb ( maybe 10th ) giving life a new way of saying oskot`
     )
   }
   if (arg === 'jane') {
