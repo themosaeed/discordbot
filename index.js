@@ -6,6 +6,7 @@ require('dotenv').config()
 client.login(process.env.TOKEN)
 
 client.on('ready', () => {
+  checkBirthday()
   console.log(`Logged in as ${client.user.tag}!`)
 })
 
@@ -13,7 +14,7 @@ const testChannel = '804429983489327109'
 const belaHadafChannel = '754732751558541365'
 
 client.on('message', (msg) => {
-  if (msg.channel.id === belaHadafChannel) {
+  if (msg.channel.id === testChannel) {
     const args = msg.content.slice().trim().split(' ')
     const command = args.shift().toLowerCase()
     const arg = args[0].toLowerCase()
@@ -25,3 +26,22 @@ client.on('message', (msg) => {
     }
   }
 })
+
+function checkBirthday() {
+  const curentDateDay = new Date().getTime()
+  const curentDateMonth = new Date().getMonth()
+  const dateConcat = curentDateMonth + curentDateDay
+  const newDateDay = new Date('01/29/2021').getTime()
+  const newDateMonth = new Date('01/29/2021').getMonth()
+  console.log(
+    curentDateDay,
+    curentDateMonth,
+    newDateDay,
+    newDateMonth,
+    dateConcat
+  )
+  // if (curentDate == newDate) {
+  //   console.log('today is the day')
+  // }
+  setInterval(() => {}, 1) //86400000
+}

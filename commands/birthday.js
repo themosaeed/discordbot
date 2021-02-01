@@ -1,15 +1,18 @@
 function birthday(arg, msg) {
   if (arg === 'all') {
-    msg.reply(`10/2 :ninja:
-            9/3 :printer:
-            10/5 :zezo:
-            16/5 :desktop:
-            10/7 :cheese:
-            25/7 :joy:
-            1/9 :rabbit:
-            20/11 :mag:
-            21/12 :rolling_eyes:
-            25/12 :soccer:`)
+    msg.reply(`1/2 :flag_tr: 
+      10/2 :ninja: 
+      9/3 :printer:
+      10/5 :zezo: 
+      16/5 :desktop: 
+      26/6 :dart: 
+      10/7 :cheese:
+      25/7 :joy:
+      12/8 :burrito: 
+      1/9 :rabbit:
+      20/11 :mag:
+      21/12 :rolling_eyes:
+      25/12 :soccer:`)
   }
 
   if (arg == 'zezo') {
