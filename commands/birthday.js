@@ -56,6 +56,26 @@ function birthday(arg, msg) {
       `alaa is a special person who came to life on the 25th of july giving life a new super engineer and sambosa cooker`
     )
   }
+  if (arg === 'kero') {
+    msg.reply(
+      `Kero is a special person who came to life on the 26th of june giving life a new keroptonite`
+    )
+  }
+  if (arg === 'shakboni') {
+    msg.reply(
+      `shakboni is a special person who came to life on the 10th of Feb giving life a new super Ninja`
+    )
+  }
+  if (arg === 'romy') {
+    msg.reply(
+      `Romy is a special person who came to life on the 1st of Feb giving life a new way of saying oskooot`
+    )
+  }
+  if (arg === 'salma') {
+    msg.reply(
+      `salma is a special person who came to life on the 12th of August giving life a new kofta lover`
+    )
+  }
 }
 
 module.exports = birthday
