@@ -18,7 +18,7 @@ client.on('message', (msg) => {
     const args = msg.content.slice().trim().split(' ')
     const command = args.shift().toLowerCase()
     const arg = args[0].toLowerCase()
-    if (command === '!birthday') {
+    if (command === '!bd') {
       birthday(arg, msg)
     }
     if (command === '!whois') {
