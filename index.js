@@ -19,7 +19,7 @@ client.on('message', (msg) => {
     const command = args.shift().toLowerCase()
     const arg = args[0].toLowerCase()
     if (command === '!bd') {
-      birthday(arg, msg)
+      birthday(arg, msg, client)
     }
     if (command === '!whois') {
       whoIs(arg, msg)

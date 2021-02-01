@@ -1,9 +1,10 @@
-function birthday(arg, msg) {
+function birthday(arg, msg, client) {
   if (arg === 'all') {
+    const zezoEmoji = client.emojis.find((emoji) => emoji.name === 'zezo')
     msg.reply(`1/2 :flag_tr: 
       10/2 :ninja: 
       9/3 :printer:
-      10/5 :zezo: 
+      10/5 ${zezoEmoji} 
       16/5 :desktop: 
       26/6 :dart: 
       10/7 :cheese:
@@ -38,7 +39,7 @@ function birthday(arg, msg) {
   }
   if (arg === 'roma') {
     msg.reply(
-      `roma is a special creature who came to life on the 1st of September  giving life a new cute bunny`
+      `roma is a special creature who came to life on the 1st of September giving life a new cute bunny`
     )
   }
   if (arg === 'sheda') {
