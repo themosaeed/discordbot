@@ -18,8 +18,9 @@ client.on('message', (msg) => {
     const args = msg.content.slice().trim().split(' ')
     const command = args.shift().toLowerCase()
     const arg = args[0].toLowerCase()
+    const zezoEmoji = client.emojis.cache.get('769215210447306752')
     if (command === '!bd') {
-      birthday(arg, msg, client)
+      birthday(arg, msg, zezoEmoji)
     }
     if (command === '!whois') {
       whoIs(arg, msg)

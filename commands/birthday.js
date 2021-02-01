@@ -1,6 +1,5 @@
-function birthday(arg, msg, client) {
+function birthday(arg, msg, zezoEmoji) {
   if (arg === 'all') {
-    const zezoEmoji = client.emojis.find((emoji) => emoji.name === 'zezo')
     msg.reply(`1/2 :flag_tr: 
       10/2 :ninja: 
       9/3 :printer:
