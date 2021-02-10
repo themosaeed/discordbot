@@ -1,8 +1,8 @@
 function bdReminder(client, channel) {
   const chn = client.channels.cache.get(channel)
 
-  happyBirthday(chn, 'Romy', 2021, 1, 10, 20, 2)
-  happyBirthday(chn, 'Samurai Shak', 2021, 1, 10, 20, 3)
+  happyBirthday(chn, 'Romy', 2021, 1, 10, 14, 33)
+  happyBirthday(chn, 'Samurai Shak', 2021, 1, 10, 14, 30)
   happyBirthday(chn, 'Salma', 2021, 2, 9, 20, 1)
   happyBirthday(chn, 'Zezo', 2021, 4, 10, 20, 1)
   happyBirthday(chn, 'Mo', 2021, 4, 16, 20, 1)
