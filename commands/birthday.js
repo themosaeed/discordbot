@@ -11,7 +11,7 @@ function birthday(arg, msg, zezoEmoji) {
       12/8 :burrito: 
       1/9 :rabbit:
       7/11 :computer:
-      20/11 :mag
+      20/11 :mag:
       21/12 :rolling_eyes:
       25/12 :soccer:`)
   }
