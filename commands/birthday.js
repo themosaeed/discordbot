@@ -34,7 +34,7 @@ function birthday(arg, msg, zezoEmoji) {
   }
   if (arg === 'salma') {
     msg.reply(
-      `salma is a special person who came to life on the 9th of March giving life a new zaha hadid`
+      `salma is a special person who came to life on the 9th of March giving life a new rocket league professional `
     )
   }
   if (arg === 'roma') {
