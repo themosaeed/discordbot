@@ -10,7 +10,8 @@ function birthday(arg, msg, zezoEmoji) {
       25/7 :joy:
       12/8 :burrito: 
       1/9 :rabbit:
-      20/11 :mag:
+      7/11 :computer:
+      20/11 :mag
       21/12 :rolling_eyes:
       25/12 :soccer:`)
   }
@@ -74,6 +75,11 @@ function birthday(arg, msg, zezoEmoji) {
   if (arg === 'jane') {
     msg.reply(
       `salma is a special person who came to life on the 12th of August giving life a new kofta lover`
+    )
+  }
+  if (arg === 'juba') {
+    msg.reply(
+      `Juba is a special person who came to life on the 12th of August giving life a new hamada helal`
     )
   }
 }

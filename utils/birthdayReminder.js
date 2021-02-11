@@ -11,6 +11,7 @@ function bdReminder(client, channel) {
   happyBirthday(chn, '<@616359831376363530>', 2021, 6, 25, 12, 1) //Alaa
   happyBirthday(chn, '<@141298305626800128>', 2021, 7, 12, 12, 1) //Jane
   happyBirthday(chn, '<@661348681517105152>', 2021, 8, 1, 12, 1) //Roma
+  happyBirthday(chn, '<@278273060811964416>', 2021, 10, 7, 12, 1) //juba
   happyBirthday(chn, '<@694062315888181309>', 2021, 10, 20, 12, 1) //sherlock
   happyBirthday(chn, '<@334184503578984448>', 2021, 11, 21, 12, 1) //Taha
   happyBirthday(chn, '<@696775564748390491>', 2021, 11, 25, 12, 1) //Sheda
