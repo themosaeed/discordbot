@@ -8,13 +8,14 @@ client.login(process.env.TOKEN);
 
 const testChannel = '804429983489327109';
 const belaHadafChannel = '754732751558541365';
+const spamChannel = '818882905140887562';
 
 client.on('ready', () => {
     sayHappyBirthday(client, belaHadafChannel);
 });
 
 client.on('message', (msg) => {
-    if (msg.channel.id === belaHadafChannel) {
+    if (msg.channel.id === belaHadafChannel || msg.channel.id === spamChannel) {
         if (msg.content.startsWith('!')) {
             const args = msg.content.trim().split(' ');
             const command = args.shift().toLowerCase();
