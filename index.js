@@ -10,12 +10,11 @@ const testChannel = '804429983489327109';
 const belaHadafChannel = '754732751558541365';
 
 client.on('ready', () => {
-    sayHappyBirthday(client, testChannel);
-    console.log(`Logged in as ${client.user.tag}!`);
+    sayHappyBirthday(client, belaHadafChannel);
 });
 
 client.on('message', (msg) => {
-    if (msg.channel.id === testChannel) {
+    if (msg.channel.id === belaHadafChannel) {
         if (msg.content.startsWith('!')) {
             const args = msg.content.trim().split(' ');
             const command = args.shift().toLowerCase();
@@ -23,7 +22,6 @@ client.on('message', (msg) => {
             const zezoEmoji = client.emojis.cache.get('769215210447306752');
             const AfifiEmoji = client.emojis.cache.get('756163779804266659');
 
-            console.log(client.emojis.cache);
             if (command === '!bd') {
                 birthday(arg, msg, zezoEmoji, AfifiEmoji);
             }

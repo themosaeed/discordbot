@@ -1,20 +1,37 @@
 function birthday(arg, msg, zezoEmoji, AfifiEmoji) {
     if (arg === 'all') {
-        msg.reply(`1/2 :flag_tr: 
-      10/2 :ninja: 
-      9/3 :printer:
-      10/5 ${zezoEmoji} 
-      16/5 :desktop: 
-      26/6 :dart: 
-      10/7 :cheese:
-      25/7 :joy:
-      12/8 :burrito: 
-      1/9 :rabbit:
-      7/11 :computer:
-      20/11 :mag:
-      01/12 : ${AfifiEmoji}
-      21/12 :rolling_eyes:
-      25/12 :soccer:`);
+        msg.reply(`
+      --------------------  
+      1/2    :flag_tr:
+      -------------------- 
+      10/2   :ninja: 
+      --------------------
+      9/3    :printer:
+      --------------------
+      10/5   ${zezoEmoji} 
+      --------------------
+      16/5   :desktop: 
+      --------------------
+      26/6   :dart: 
+      --------------------
+      10/7   :cheese:
+      --------------------
+      25/7   :joy:
+      --------------------
+      12/8   :burrito: 
+      --------------------
+      1/9    :rabbit:
+      --------------------
+      7/11   :computer:
+      --------------------
+      20/11  :mag:
+      --------------------
+      01/12  ${AfifiEmoji}
+      --------------------
+      21/12  :rolling_eyes:
+      --------------------
+      25/12  :soccer:
+      --------------------`);
     }
 
     if (arg == 'zezo') {
