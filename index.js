@@ -8,7 +8,7 @@ client.login(process.env.TOKEN);
 
 const testChannel = '804429983489327109';
 const belaHadafChannel = '754732751558541365';
-const spamChannel = '818882905140887562';
+const spamChannel = '821799848067727431';
 
 client.on('ready', () => {
     sayHappyBirthday(client, belaHadafChannel);
