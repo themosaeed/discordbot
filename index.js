@@ -16,7 +16,12 @@ client.on('ready', () => {
 
 client.on('message', (msg) => {
     if (msg.channel.id === belaHadafChannel || msg.channel.id === spamChannel) {
-        if (msg.content.startsWith('!')) {
+        if (msg.content === '!commands') {
+            msg.reply(`
+            !bd <member>
+            !whois <member>`);
+        }
+        if (msg.content != '!commands' && msg.content.startsWith('!')) {
             const args = msg.content.trim().split(' ');
             const command = args.shift().toLowerCase();
             const arg = args[0].toLowerCase();

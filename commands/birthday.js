@@ -2,6 +2,8 @@ function birthday(arg, msg, zezoEmoji, AfifiEmoji) {
     if (arg === 'all') {
         msg.reply(`
       --------------------  
+      19/3    server
+      --------------------  
       1/2    :flag_tr:
       -------------------- 
       10/2   :ninja: 
@@ -103,6 +105,16 @@ function birthday(arg, msg, zezoEmoji, AfifiEmoji) {
     if (arg === 'afifi') {
         msg.reply(
             `afifi is a special person who came to life on the 1st of December giving life ${AfifiEmoji}`
+        );
+    }
+    if (arg === 'mo') {
+        msg.reply(
+            `mo is a special person who came to life on the 16th of may giving life a new bug hunter`
+        );
+    }
+    if (arg === 'server') {
+        msg.reply(
+            `the server was born on the 19th of March 2020 by the great bunny Roma who passed the mantel to Salma who took care of the server since then`
         );
     }
 }
